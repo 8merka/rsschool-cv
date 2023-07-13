@@ -1,1 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CV</title>
+  <link rel="shortcut icon" href="images/logo.png">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="#section-about">BRIEFLY ABOUT MYSELF</a>
+      <a href="#section-skills">PROFESSIONAL SKILLS</a>
+      <a href="#section-code">CODE EXAMPLE</a>
+    </nav>
+  </header>
+  
+  
+  <main>
+    <div class="container">
+      <section class="section_left">
+        <div class="centered">
+          <img src="I.jpg" alt="My profile picture">
+          <h1 class="title">Alexey Zotov</h1>
+        </div>
+        <h5 class="sub-title">CONTACT INFO</h5>
+        <ul>
+          <li><i class="fa fa-phone"></i> +375 44 7829625</li>
+          <li><i class="fa fa-envelope"></i> alexeyzotov8@gmail.com</li>
+          <li><i class="fa fa-telegram"></i> @alexeyzotov8</li>
+          <li><i class="fa fa-vk"><a href="https://vk.com/the8merka" style="color: white;"> Alexey Zotov</a></i></li>
+        </ul>
+        <h5 class="sub-title">COURSES AND STUDYING:</h5>
+
+        <em>RS Schools Course «JavaScript/Front-end. Stage 0»</em>
+        <p>In progress</p>
+        <em>Belarusian-Russian university</em>
+        <p>Second course</p>
+        <h5 class="sub-title">LANGUAGE</h5>
+        <label>Russian</label>
+        <div class="progress_container">
+          <div class="progress_bar" style="width:100%"></div>
+        </div>
+        <label>Belarusian</label>
+        <div class="progress_container">
+          <div class="progress_bar" style="width:40%"></div>
+        </div>
+        <label>English</label>
+        <div class="progress_container">
+          <div class="progress_bar" style="width:83%"></div>
+        </div>
+      </section>
+      <div class="section_right">'
+          <section id="section-about">
+            <h2 class="title">BRIEFLY ABOUT MYSELF:</h2>
+            <p>I am a student of a Belarusian-Russian university. I am entered the university without any experience of programming and after 2 years of studying here, I can definitely say that I master most programming languages with ease and I am always ready to learn something new.</p>
+            <p>I can say that I enjoy coding in backend because it is much easier for me than doing some things with the user interface: colors, shapes, styles, animations, etc. But no matter what anyone says, a full-stack programmer is often more in demand than a regular one.</p>
+            <p>That is why I began studying front-end languages. And I am sure that I will succeed in becoming a good full-stack programmer.</p>
+          </section>
+          <section id="section-skills">
+            <h2 class="title">PROFESSIONAL SKILLS</h2>
+            <table>
+              <tr>
+                <td>
+                  C#
+                </td>
+                <td>
+                  <div class="progress_container">
+                    <div class="progress_bar" style="width:70%"></div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  C++
+                </td>
+                <td>
+                  <div class="progress_container">
+                    <div class="progress_bar" style="width:60%"></div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  T-SQL
+                </td>
+                <td>
+                  <div class="progress_container">
+                    <div class="progress_bar" style="width:45%"></div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  HTML5, CSS3
+                </td>
+                <td>
+                  <div class="progress_container">
+                    <div class="progress_bar" style="width:40%"></div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  JavaScript
+                </td>
+                <td>
+                  <div class="progress_container">
+                    <div class="progress_bar" style="width:40%"></div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Git, GitHub
+                </td>
+                <td>
+                  <div class="progress_container">
+                    <div class="progress_bar" style="width:40%"></div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Adobe Photoshop
+                </td>
+                <td>
+                  <div class="progress_container">
+                    <div class="progress_bar" style="width:38%"></div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </section>
+          <section id="section-code">
+            <h2 class="title">CODE EXAMPLE</h2>
+            <p>Create a function which answers the question "Are you playing banjo?". If your name starts with the letter "R" or lower case "r", you are playing banjo!</p>
+            <pre>
+              using System;<br><br>
+              public class Kata<br>
+              {
+                public static string AreYouPlayingBanjo(string name)<br>
+                {
+                  if(name.StartsWith('R') || name.StartsWith('r'))<br>
+                  {
+                    return name + " plays banjo";<br>
+                  }
+                  return name + " does not play banjo";<br>
+                }
+              }
+            </pre>
+          </section>
+        
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="git-url"><i class="fa fa-github"></i> <a href="https://github.com/8merka" style="color: white;">8merka</a></div>
+    <span>2023</span>
+  </footer>
+</body>
+</html>
 
